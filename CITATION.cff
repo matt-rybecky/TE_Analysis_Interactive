@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "te-explorer: rolling-window transfer entropy explorer with IAAFT significance testing"
+version: 1.0.0
+date-released: 2026-07-23
+license: MIT
+authors:
+  - family-names: Rybecky
+    given-names: Matthew
+    affiliation: University of New Mexico
+repository-code: "https://github.com/matt-rybecky/TE_Analysis_Interactive"
+doi: "PENDING"  # TODO: fill on release — Zenodo concept DOI (10.5281/zenodo.XXXXXXX)
+preferred-citation:
+  type: article
+  title: "PENDING (JGR: Atmospheres manuscript, in review)"  # TODO: final accepted title
+  authors:
+    - family-names: Rybecky
+      given-names: Matthew
+      affiliation: University of New Mexico
+  journal: "Journal of Geophysical Research: Atmospheres"
+  doi: "PENDING"  # TODO: fill on acceptance — journal DOI (10.1029/2026JD0XXXXX)
+  year: 2026

@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# Regenerable analysis outputs — everything under publication_output/ except
+# the frozen Stage 2 CSVs of record shipped with the repo.
+publication_output/*
+!publication_output/stage2/
+
+# GUI session outputs
+output_plots/
+
+# OS
+.DS_Store

@@ -1,0 +1,22 @@
+# te-explorer — runtime dependencies (pip)
+#
+# Min-version constraints; freeze exact versions in your env with `pip freeze`.
+#
+numpy>=1.20.0
+pandas>=1.3.0
+scipy>=1.7.0
+matplotlib>=3.4.0
+scikit-learn>=1.0.0    # required by the vendored NPEET estimator
+                       # (core/NPEET/npeet/entropy_estimators.py imports
+                       # sklearn.neighbors BallTree/KDTree)
+#
+# Optional — only needed for specific manuscript/ scripts:
+# pyarrow>=6.0.0    # Parquet driver-series layers (falls back to CSV where gated)
+# netCDF4>=1.5.0    # only to re-run build_external_winter.py from raw archives
+#                   # (raw SPLASH/ARM archives are not shipped; processed CSVs are)
+#
+# NOT pip-installable / not listed here:
+#   - npeet  : vendored locally at ./core/NPEET (KSG estimator), added to
+#              sys.path at runtime; depends only on numpy/scipy (above).
+#   - tkinter: Python standard library (GUI). On Debian/Ubuntu install the
+#              system package python3-tk if missing.
