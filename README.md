@@ -1,5 +1,7 @@
 # te-explorer
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21561839.svg)](https://doi.org/10.5281/zenodo.21561839)
+
 Interactive explorer for rolling-window transfer entropy in time series,
 released to accompany a research manuscript on phase-change
 signatures in water vapor isotopes (SAIL/SPLASH campaigns, East River
@@ -104,7 +106,13 @@ documents their processing.
 ## Citation
 
 See `CITATION.cff`. Please cite the accompanying manuscript (DOI pending)
-and this software release.
+and this software release:
+
+> Rybecky, M. (2026). *te-explorer: rolling-window transfer entropy explorer
+> with IAAFT significance testing*. Zenodo. https://doi.org/10.5281/zenodo.21561839
+
+The DOI above is the concept DOI and always resolves to the latest version;
+`10.5281/zenodo.21561840` is the frozen v1.0.0 snapshot.
 
 ## License
 

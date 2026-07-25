@@ -9,7 +9,7 @@ authors:
     given-names: Matthew
     affiliation: University of New Mexico
 repository-code: "https://github.com/matt-rybecky/TE_Analysis_Interactive"
-doi: "PENDING"  # TODO: fill on release — Zenodo concept DOI (10.5281/zenodo.XXXXXXX)
+doi: "10.5281/zenodo.21561839"  # Zenodo concept DOI (always latest version)
 preferred-citation:
   type: article
   title: "PENDING (accompanying manuscript, in review)"  # TODO: final accepted title
