@@ -1,6 +1,6 @@
 """Definitive publication figure style for the manuscript and SI.
 
-Implements the style guide in ``Manuscript/docs/ARTIFACT_HANDOFF.md``:
+Implements the manuscript figure style guide:
 pure black and white, shape-first series differentiation, print-true
 dimensions and font sizes. Every figure script imports this module and
 applies no style overrides of its own.

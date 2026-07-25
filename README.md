@@ -83,7 +83,8 @@ without recomputation.
   `prep/`, configuration in `config.py`).
 - `core/` — the computation engines of record (`TE_Calculator.py`,
   `TE_Surrogate.py`), byte-identical to the analysis repository, plus the
-  vendored NPEET estimator.
+  vendored NPEET estimator. The engines set a global warning filter so long
+  parallel runs stay readable; this is intentional and preserved verbatim.
 - `manuscript/` — scripts of record for the manuscript artifacts.
 - `data/` — analysis inputs (see `manuscript/README.md` for the
   preparation chain and provenance).
