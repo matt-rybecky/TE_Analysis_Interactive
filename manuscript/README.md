@@ -1,7 +1,7 @@
 # manuscript/ — Scripts of Record
 
 **Purpose:** the exact code that generated the figures, tables, and statistics
-in the accompanying JGR: Atmospheres manuscript. These scripts are provenance,
+in the accompanying research manuscript. These scripts are provenance,
 preserved with minimal modification from the analysis repository (TE_V1.0.0).
 The only edits are documented in-file: a two-line `sys.path` bootstrap to
 `../core` in `pub_stage2.py` and `pub_history_sensitivity.py`, and two

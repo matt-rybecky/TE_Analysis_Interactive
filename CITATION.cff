@@ -12,11 +12,11 @@ repository-code: "https://github.com/matt-rybecky/TE_Analysis_Interactive"
 doi: "PENDING"  # TODO: fill on release — Zenodo concept DOI (10.5281/zenodo.XXXXXXX)
 preferred-citation:
   type: article
-  title: "PENDING (JGR: Atmospheres manuscript, in review)"  # TODO: final accepted title
+  title: "PENDING (accompanying manuscript, in review)"  # TODO: final accepted title
   authors:
     - family-names: Rybecky
       given-names: Matthew
       affiliation: University of New Mexico
-  journal: "Journal of Geophysical Research: Atmospheres"
-  doi: "PENDING"  # TODO: fill on acceptance — journal DOI (10.1029/2026JD0XXXXX)
+  journal: "PENDING"  # TODO: journal name on acceptance
+  doi: "PENDING"  # TODO: fill on acceptance — journal DOI
   year: 2026

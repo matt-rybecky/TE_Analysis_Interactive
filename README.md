@@ -1,7 +1,7 @@
 # te-explorer
 
 Interactive explorer for rolling-window transfer entropy in time series,
-released to accompany a JGR: Atmospheres manuscript on phase-change
+released to accompany a research manuscript on phase-change
 signatures in water vapor isotopes (SAIL/SPLASH campaigns, East River
 watershed, Colorado, winter 2022-23).
 
@@ -78,7 +78,8 @@ python3 tests/test_prep.py
 Headless test of the data-preparation pipeline (no GUI): synthetic
 unaligned multi-file datasets are aligned, merged, beta-normalized, and
 circular-encoded, with assertions on grid coverage, gap preservation, and
-calibration sanity. Runs in a few seconds; also pytest-compatible.
+calibration sanity. Runs in a few seconds. The tests are also pytest-compatible if you
+install pytest separately (not a runtime dependency).
 
 ## Reproducing the manuscript
 
