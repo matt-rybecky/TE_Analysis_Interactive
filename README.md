@@ -69,18 +69,6 @@ The shipped `data/` files are the manuscript's analysis inputs, so the
 explorer works out of the box; `data/final_6hr_beta_circular.csv` is the
 publication input.
 
-## Tests
-
-```bash
-python3 tests/test_prep.py
-```
-
-Headless test of the data-preparation pipeline (no GUI): synthetic
-unaligned multi-file datasets are aligned, merged, beta-normalized, and
-circular-encoded, with assertions on grid coverage, gap preservation, and
-calibration sanity. Runs in a few seconds. The tests are also pytest-compatible if you
-install pytest separately (not a runtime dependency).
-
 ## Reproducing the manuscript
 
 `manuscript/` contains the exact scripts of record behind every figure and

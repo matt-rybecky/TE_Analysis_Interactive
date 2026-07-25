@@ -14,5 +14,8 @@ publication_output/*
 # GUI session outputs
 output_plots/
 
+# Local development tests (not shipped)
+tests/
+
 # OS
 .DS_Store
